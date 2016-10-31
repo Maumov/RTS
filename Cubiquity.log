@@ -1,0 +1,549 @@
+********************************************************************************
+*                             Initializing Cubiquity                           *
+********************************************************************************
+[22:49:25, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3BDC158A.vdb'
+[22:49:26, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/20849EE3.vdb'
+[22:50:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[22:50:01, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[22:50:26, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/75416362.vdb'
+[22:50:27, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/500C883C.vdb'
+[22:50:31, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[22:50:31, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[22:50:37, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/56F9CA3C.vdb'
+[22:50:38, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7D4F6AD8.vdb'
+[22:51:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[22:51:33, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[23:00:37, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/034F8C25.vdb'
+[23:00:37, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/12850B02.vdb'
+[23:00:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:00:57, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[23:01:06, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/27B7D497.vdb'
+[23:01:07, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/295C82ED.vdb'
+[23:07:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:07:58, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[23:10:40, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5C0517CD.vdb'
+[23:10:41, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/20B581E8.vdb'
+[23:10:49, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4C79DF21.vdb'
+[23:10:49, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/03AD7981.vdb'
+[23:10:50, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1F3AE68E.vdb'
+[23:10:50, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4C51D585.vdb'
+[23:10:50, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4D78AC3D.vdb'
+[23:10:51, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7A1D766A.vdb'
+[23:10:51, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7CBDE590.vdb'
+[23:10:52, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/44672C03.vdb'
+[23:10:52, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1DCEB1F6.vdb'
+[23:10:53, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/611DA7A6.vdb'
+[23:10:53, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7E842440.vdb'
+[23:10:54, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6A9C2917.vdb'
+[23:10:54, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4773258B.vdb'
+[23:10:54, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6B955575.vdb'
+[23:10:55, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/663673BE.vdb'
+[23:10:55, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/346839C2.vdb'
+[23:10:56, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2E8CFC32.vdb'
+[23:10:56, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/27ED18A0.vdb'
+[23:10:57, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/17A739D3.vdb'
+[23:10:57, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/50306641.vdb'
+[23:10:57, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/773D9A4F.vdb'
+[23:10:58, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4A949B2F.vdb'
+[23:10:58, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6D7F74E8.vdb'
+[23:10:59, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6D30C3D9.vdb'
+[23:10:59, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7FA03D33.vdb'
+[23:11:00, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/526078D3.vdb'
+[23:11:00, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/290E9D21.vdb'
+[23:11:01, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1DD316DB.vdb'
+[23:11:01, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/16D559E0.vdb'
+[23:11:02, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1F4525B3.vdb'
+[23:11:02, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1E590DE0.vdb'
+[23:11:03, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2931DAC7.vdb'
+[23:11:03, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5BFACF81.vdb'
+[23:11:03, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5F19E3DB.vdb'
+[23:11:04, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0A3FC054.vdb'
+[23:11:04, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/45CF9287.vdb'
+[23:11:05, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/60E28DD0.vdb'
+[23:11:05, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/155EFA22.vdb'
+[23:11:05, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/178B8A73.vdb'
+[23:11:06, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5B1FB2B2.vdb'
+[23:11:06, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7B64FD8F.vdb'
+[23:11:07, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0061079C.vdb'
+[23:11:07, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/04B27A6D.vdb'
+[23:11:08, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/665F875F.vdb'
+[23:11:08, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7EF53B66.vdb'
+[23:11:08, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3687E789.vdb'
+[23:11:09, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1565661B.vdb'
+[23:11:09, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/046E93D3.vdb'
+[23:11:10, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/72FA9708.vdb'
+[23:11:10, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/104B612F.vdb'
+[23:11:10, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/230A3BDB.vdb'
+[23:11:11, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1125CE7D.vdb'
+[23:11:12, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4D923F79.vdb'
+[23:11:12, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3CBFF21A.vdb'
+[23:11:12, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/025C7407.vdb'
+[23:11:13, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2348045A.vdb'
+[23:11:13, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/27B2A9FF.vdb'
+[23:11:14, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/402102B2.vdb'
+[23:11:14, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/42121531.vdb'
+[23:11:15, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/07A919B6.vdb'
+[23:11:15, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/193AE89A.vdb'
+[23:11:15, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/675EEB6E.vdb'
+[23:11:16, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2CDBA190.vdb'
+[23:11:16, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/42AEFF43.vdb'
+[23:11:17, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/65B8AA16.vdb'
+[23:11:17, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7E231CA4.vdb'
+[23:11:18, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/65E9AEAA.vdb'
+[23:11:18, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/61139E2B.vdb'
+[23:11:18, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6CA01A0E.vdb'
+[23:11:19, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2FAE8C35.vdb'
+[23:11:19, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1F02D3A7.vdb'
+[23:11:20, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2A1E685F.vdb'
+[23:11:20, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/34F28197.vdb'
+[23:11:21, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/075BD8A4.vdb'
+[23:11:21, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2D262A66.vdb'
+[23:11:22, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6617CBD2.vdb'
+[23:11:22, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7D025BB5.vdb'
+[23:11:23, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/30BF82CE.vdb'
+[23:11:23, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6AD44FD1.vdb'
+[23:11:23, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5C5838D9.vdb'
+[23:11:24, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2AADCED4.vdb'
+[23:11:24, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/68ED9A6E.vdb'
+[23:11:25, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5BC101A9.vdb'
+[23:11:25, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0F2C402A.vdb'
+[23:11:26, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/060A3D19.vdb'
+[23:11:26, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/36FA2271.vdb'
+[23:11:26, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7C563936.vdb'
+[23:11:27, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/194BD03E.vdb'
+[23:11:27, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/796139C4.vdb'
+[23:11:28, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0C1CA3AF.vdb'
+[23:11:28, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5FE5E3DC.vdb'
+[23:11:29, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7FCEEFA4.vdb'
+[23:11:29, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/28BEE013.vdb'
+[23:11:29, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/67DCFE3D.vdb'
+[23:11:30, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3C1CDF0B.vdb'
+[23:11:30, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/51469530.vdb'
+[23:11:31, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4B6E8604.vdb'
+[23:11:31, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7D56A1C8.vdb'
+[23:11:32, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/39395CF9.vdb'
+[23:11:32, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/18DD6F94.vdb'
+[23:11:33, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/39858BD3.vdb'
+[23:11:33, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/64A5E34C.vdb'
+[23:11:34, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/199A4401.vdb'
+[23:11:34, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/16A25E2F.vdb'
+[23:11:35, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/659D925A.vdb'
+[23:11:35, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3A1CA16C.vdb'
+[23:11:35, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3564CCD3.vdb'
+[23:11:36, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3E65FF4F.vdb'
+[23:11:36, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/36B5B501.vdb'
+[23:11:37, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4B625196.vdb'
+[23:11:37, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/26F1CB23.vdb'
+[23:11:38, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0E66D9C1.vdb'
+[23:11:38, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/46BFC8ED.vdb'
+[23:11:38, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/35F57182.vdb'
+[23:11:39, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/27C335D9.vdb'
+[23:11:39, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/196BF8F5.vdb'
+[23:11:40, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3EA00B5B.vdb'
+[23:11:40, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/44FEA352.vdb'
+[23:11:41, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/06922038.vdb'
+[23:11:41, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/147214E6.vdb'
+[23:11:42, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/32B496A0.vdb'
+[23:11:42, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/68930CE1.vdb'
+[23:11:42, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/27DA4132.vdb'
+[23:11:43, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/53C2AA7A.vdb'
+[23:11:43, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/76290061.vdb'
+[23:11:44, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3A5CF05A.vdb'
+[23:11:44, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1084245E.vdb'
+[23:11:45, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1E502368.vdb'
+[23:11:45, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/21BE4649.vdb'
+[23:11:45, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/730988F9.vdb'
+[23:11:46, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/30B2FEFF.vdb'
+[23:11:46, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3E9C5C66.vdb'
+[23:11:47, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7A09CDCC.vdb'
+[23:11:47, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1F71FE3B.vdb'
+[23:11:47, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/35666DB6.vdb'
+[23:11:48, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1C46F513.vdb'
+[23:11:48, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/222DD181.vdb'
+[23:11:49, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/25CB9027.vdb'
+[23:11:49, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/67690A50.vdb'
+[23:11:50, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6C9E4423.vdb'
+[23:11:50, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/785A1715.vdb'
+[23:11:51, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/375795E4.vdb'
+[23:11:51, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/12B9B006.vdb'
+[23:11:52, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/64EF24DE.vdb'
+[23:11:52, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/59680D0E.vdb'
+[23:11:52, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7752D6FA.vdb'
+[23:11:53, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/57F4AE72.vdb'
+[23:11:53, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/54FC3598.vdb'
+[23:11:54, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/71B3FDDB.vdb'
+[23:11:54, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/01BFEEB1.vdb'
+[23:11:54, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/40C270D2.vdb'
+[23:11:55, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2D1E629C.vdb'
+[23:11:55, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5B985B7F.vdb'
+[23:11:56, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/462FD3FF.vdb'
+[23:11:56, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/682A7094.vdb'
+[23:11:57, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7AE92F6C.vdb'
+[23:11:57, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6A9C157F.vdb'
+[23:11:57, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7A2845C5.vdb'
+[23:11:58, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/613BF078.vdb'
+[23:11:58, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/49569D47.vdb'
+[23:11:59, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/17EECFEB.vdb'
+[23:11:59, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0F993CAC.vdb'
+[23:12:00, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/56FCF4FE.vdb'
+[23:12:00, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4A1770DD.vdb'
+[23:12:01, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/53083A80.vdb'
+[23:12:01, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6F9A353E.vdb'
+[23:12:01, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7BAD29BA.vdb'
+[23:12:02, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/61D0A40E.vdb'
+[23:12:02, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5C8D6473.vdb'
+[23:12:02, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/30705EDE.vdb'
+[23:12:03, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/41774A82.vdb'
+[23:12:03, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/69A3D5C2.vdb'
+[23:12:04, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/534AA576.vdb'
+[23:12:04, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/04D23187.vdb'
+[23:12:04, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/53AFA413.vdb'
+[23:12:05, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/05963404.vdb'
+[23:12:05, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0CFAB162.vdb'
+[23:12:05, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/61AA6D32.vdb'
+[23:12:06, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6B9839E5.vdb'
+[23:12:06, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7B3FD0F4.vdb'
+[23:12:07, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4FC0DADA.vdb'
+[23:12:07, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/165BDE98.vdb'
+[23:12:07, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3D1432EF.vdb'
+[23:12:08, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5867A901.vdb'
+[23:12:08, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5B1AB90E.vdb'
+[23:12:09, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2119C253.vdb'
+[23:12:09, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/679F6767.vdb'
+[23:12:10, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2FF25CEF.vdb'
+[23:12:10, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4C69C3BA.vdb'
+[23:12:10, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/45CC3877.vdb'
+[23:12:11, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2099CB58.vdb'
+[23:12:11, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/405D2D72.vdb'
+[23:12:11, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/493E2BB3.vdb'
+[23:12:12, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/36F8AB72.vdb'
+[23:12:12, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2B26F9A1.vdb'
+[23:12:13, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0EB64153.vdb'
+[23:12:13, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/640CF06D.vdb'
+[23:12:13, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0DE77E7F.vdb'
+[23:12:14, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/113F80CB.vdb'
+[23:12:14, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/53D1D90A.vdb'
+[23:12:15, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6A582598.vdb'
+[23:12:15, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/764A413F.vdb'
+[23:12:16, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6963FBB2.vdb'
+[23:12:16, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/76742CE6.vdb'
+[23:12:16, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/31FF13D6.vdb'
+[23:12:17, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2A66923A.vdb'
+[23:12:17, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/700A2FAC.vdb'
+[23:12:18, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0330B27E.vdb'
+[23:12:18, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6B151AF0.vdb'
+[23:12:18, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4710AE41.vdb'
+[23:12:19, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1349C805.vdb'
+[23:12:19, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3AA9B890.vdb'
+[23:12:20, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2DBE820B.vdb'
+[23:12:20, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1B6FB801.vdb'
+[23:12:20, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/28BCD1EF.vdb'
+[23:12:21, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5791A278.vdb'
+[23:12:21, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/465B10F8.vdb'
+[23:12:21, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2004498C.vdb'
+[23:12:22, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1EF0773C.vdb'
+[23:12:22, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4451F92D.vdb'
+[23:12:22, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0B8D44D1.vdb'
+[23:12:23, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6DC5AB3B.vdb'
+[23:12:23, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/50912343.vdb'
+[23:12:24, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/08BB8B69.vdb'
+[23:12:24, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/46183945.vdb'
+[23:12:24, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4B2D0942.vdb'
+[23:12:25, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/003FDA10.vdb'
+[23:12:25, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5CD6788F.vdb'
+[23:12:26, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/52D31DB0.vdb'
+[23:12:26, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/294911D9.vdb'
+[23:12:27, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/158C0457.vdb'
+[23:12:27, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/09C9FEE4.vdb'
+[23:12:27, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/76955241.vdb'
+[23:12:28, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/24878BA4.vdb'
+[23:12:28, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/67F608EF.vdb'
+[23:12:28, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1517224A.vdb'
+[23:12:29, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/689D5C8C.vdb'
+[23:12:29, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/21A47AEE.vdb'
+[23:12:30, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2FAAD712.vdb'
+[23:12:30, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/03891696.vdb'
+[23:12:31, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5ABEB15A.vdb'
+[23:12:31, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/479B1DDB.vdb'
+[23:12:31, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1101E5B3.vdb'
+[23:12:32, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0817CA8D.vdb'
+[23:12:32, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3A3EF3A6.vdb'
+[23:12:33, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/32D4201C.vdb'
+[23:12:33, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6FCC0A2E.vdb'
+[23:12:34, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4082A04A.vdb'
+[23:12:34, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/70E0722C.vdb'
+[23:12:34, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5FF9F05E.vdb'
+[23:12:35, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0E766743.vdb'
+[23:14:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:14:59, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:01, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:02, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:04, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:05, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:15:07, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[23:16:41, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2B0160B6.vdb'
+[23:16:41, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/315025A5.vdb'
+[23:16:50, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/34930D81.vdb'
+[23:17:28, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5A6192D4.vdb'
+[23:18:35, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4A412878.vdb'
+[23:18:38, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/167B7DA1.vdb'
+[23:20:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:20:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:20:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:20:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:20:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:20:06, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[23:53:48, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/676BBF5C.vdb'
+[23:53:48, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/276CA349.vdb'
+[23:59:47, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:59:47, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+********************************************************************************
+*                             Shutting down Cubiquity                          *
+********************************************************************************
+

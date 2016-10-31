@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{91D21056-EB3C-28C6-DC2A-8051B7196061}") = "RealTimeStrategy", "Assembly-CSharp.csproj", "{5880A18C-C035-35BF-DA09-EB88CB6ADA03}"
+EndProject
+Project("{91D21056-EB3C-28C6-DC2A-8051B7196061}") = "RealTimeStrategy", "Assembly-CSharp-Editor.csproj", "{B834CFA8-EC4D-213C-2FEB-41CE1CEE0076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5880A18C-C035-35BF-DA09-EB88CB6ADA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5880A18C-C035-35BF-DA09-EB88CB6ADA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5880A18C-C035-35BF-DA09-EB88CB6ADA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5880A18C-C035-35BF-DA09-EB88CB6ADA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B834CFA8-EC4D-213C-2FEB-41CE1CEE0076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B834CFA8-EC4D-213C-2FEB-41CE1CEE0076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B834CFA8-EC4D-213C-2FEB-41CE1CEE0076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B834CFA8-EC4D-213C-2FEB-41CE1CEE0076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

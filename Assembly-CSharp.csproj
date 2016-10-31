@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5880A18C-C035-35BF-DA09-EB88CB6ADA03}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Cubiquity\Examples\CreatingVolumesFromCode\CreateVoxelDatabase\CreateVoxelDatabase.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\CreatingVolumesFromCode\MazeFromImage\ColoredCubeMazeFromImage.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\CreatingVolumesFromCode\ProceduralGeneration\ProceduralTerrainVolume.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\CreatingVolumesFromCode\ProceduralGeneration\SimplexNoise.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\CreatingVolumesFromCode\SimpleTerrainVolume\SimpleTerrainVolume.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SharedAssets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SharedAssets\Scripts\ClickToCarveTerrainVolume.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SharedAssets\Scripts\ClickToDestroy.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SharedAssets\Scripts\MeshSyncHandler.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SharedAssets\Scripts\SpawnPhysicsObjectsOnMeshSync.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SolarSystem\Earth.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SolarSystem\Moon.cs" />
+     <Compile Include="Assets\Cubiquity\Examples\SolarSystem\TrackEarth.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\ByteArray.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\ColoredCubesVolume.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\ColoredCubesVolumeCollider.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\ColoredCubesVolumeData.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\ColoredCubesVolumeRenderer.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\CubiquityException.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\CameraUtils.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\Clock.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\ColoredCubesVertex.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\CuOctreeNode.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\CubiquityDLL.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\DebugUtils.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\ExtensionMethods.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\Installation.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\Licensing.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\MeshConversion.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\OctreeNode.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\TerrainVertex.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Impl\Utility.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\MaterialSet.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Paths.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Picking.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\QuantizedColor.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Region.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\TerrainVolume.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\TerrainVolumeCollider.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\TerrainVolumeData.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\TerrainVolumeEditor.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\TerrainVolumeGenerator.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\TerrainVolumeRenderer.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Vector3i.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\Volume.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\VolumeCollider.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\VolumeData.cs" />
+     <Compile Include="Assets\Cubiquity\Scripts\VolumeRenderer.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraMove.cs" />
+     <Compile Include="Assets\Scripts\Camera\RightClick.cs" />
+     <Compile Include="Assets\Scripts\Commands\Move.cs" />
+     <Compile Include="Assets\Scripts\Generals\GroupHandler.cs" />
+     <Compile Include="Assets\Scripts\Generals\IAction.cs" />
+     <Compile Include="Assets\Scripts\Generals\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Generals\SelectionBox.cs" />
+     <Compile Include="Assets\Scripts\Generals\SelectionControl.cs" />
+     <Compile Include="Assets\Scripts\Generals\UIHandler.cs" />
+     <Compile Include="Assets\Scripts\Terrain\BuildBlockMesh.cs" />
+     <Compile Include="Assets\Scripts\Terrain\CameraMeshTest.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Cubiquity\CameraMapEditor.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Cubiquity\CreateVoxelColoredCube.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Cubiquity\CreateVoxelTerrain.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Cubiquity\DigVoxelCube.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Cubiquity\DigVoxelTerrain.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Cubiquity\MapCreator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\CustomVoxels\Contouring3D.cs" />
+     <Compile Include="Assets\Scripts\Terrain\CustomVoxels\ProceduralTerrain.cs" />
+     <Compile Include="Assets\Scripts\Terrain\CustomVoxels\TerrainMeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\MeshCreator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\MeshModifier.cs" />
+     <Compile Include="Assets\Scripts\Terrain\TerrainGrid.cs" />
+     <Compile Include="Assets\Scripts\Unit\Stats.cs" />
+     <Compile Include="Assets\Scripts\Unit\Unit.cs" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\ColoredCubesUtilities.cginc" />
+     <None Include="Assets\StreamingAssets\Cubiquity\VoxelDatabases\CreatedForAssets\Readme.txt" />
+     <None Include="Assets\Cubiquity\Unsafe\README.txt" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\Planet.shader" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\VisualizeNormals.shader" />
+     <None Include="Assets\Cubiquity\Examples\ImportedVolumes\Readme.txt" />
+     <None Include="Assets\read me.txt" />
+     <None Include="Assets\Cubiquity\Examples\Tests\MengerSponge\Readme.txt" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\ColorUtilities.cginc" />
+     <None Include="Assets\Cubiquity\Examples\SharedAssets\Resources\Shader\FakeColoredCubes.shader" />
+     <None Include="Assets\Cubiquity\Documentation\0_ReadMe.txt" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\MaterialSetDebug.shader" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\TerrainVolumeUtilities.cginc" />
+     <None Include="Assets\Cubiquity\Examples\SharedAssets\3rdParty\sky5X\README.txt" />
+     <None Include="Assets\StreamingAssets\Cubiquity\VoxelDatabases\Examples\ImportedCityLicense.txt" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\ColoredCubes.shader" />
+     <None Include="Assets\Cubiquity\Examples\SolarSystem\CREDITS.txt" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\Colormap.shader" />
+     <None Include="Assets\StreamingAssets\Cubiquity\VoxelDatabases\Examples\Tests\Readme.txt" />
+     <None Include="Assets\Cubiquity\Examples\SolarSystem\Textures\CREDITS.txt" />
+     <None Include="Assets\Cubiquity\Examples\DataForImporting\Readme.txt" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\Triplanar.shader" />
+     <None Include="Assets\Cubiquity\Resources\Shaders\VisualizeLOD.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
