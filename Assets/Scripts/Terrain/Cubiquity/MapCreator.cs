@@ -4,8 +4,10 @@ using Cubiquity;
 using System.Collections.Generic;
 
 public class MapCreator : MonoBehaviour {
-	public int width = 100;
-	public int height = 10;
+	public string textureLocation;
+	//public int VoxelThresHold = 128;
+	public int maxHeight = 1;
+ 	public int width = 100;
 	public int depth = 100;
 	public GameObject cubesHolder, terrainHolder;
 
@@ -15,63 +17,103 @@ public class MapCreator : MonoBehaviour {
 	public int weight = 128;
 	public Material terrainMaterial;
 	QuantizedColor color;
+	public float loadPercentage;
 	// Use this for initialization
 	void Start () {
-		CreateMap ();
+		StartCoroutine(CreateMap ());
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		RemoveVolume ();
-		AddVolume ();
-		ChangeWeight ();
+//		RemoveVolume ();
+//		AddVolume ();
+//		ChangeWeight ();
 	}
-	void CreateMap(){
-
-		ColoredCubesVolumeData cubesData = VolumeData.CreateEmptyVolumeData<ColoredCubesVolumeData>(new Region(0, 0, 0, width, height, depth));
-		MaterialSet materialSet = new MaterialSet();
-		float simplexNoiseValue = 0f;
-		simplexNoiseValue += 2f; 
-		simplexNoiseValue *= 127.5f;
-		materialSet.weights[3] = (byte)simplexNoiseValue;
+	IEnumerator CreateMap(){
+		int[,] map = LoadImage(textureLocation);
+		ColoredCubesVolumeData cubesData = VolumeData.CreateEmptyVolumeData<ColoredCubesVolumeData>(new Region(0, 0, 0, width, maxHeight, depth ));
 		color = new QuantizedColor(255, 255, 255, 255);
 
-		for (int z = 0; z <= depth; z++)
+//		coloredCubesVolume = cubesHolder.AddComponent<ColoredCubesVolume>();
+//		coloredCubesVolume.data = cubesData;		
+//		cubesHolder.AddComponent<ColoredCubesVolumeRenderer>();
+//		cubesHolder.AddComponent <ColoredCubesVolumeCollider>();
+
+		for (int z = 0; z < depth; z++)
 		{
-			for (int y = 0; y < 2; y++)
+			for (int x = 0; x < width; x++)
 			{
-				for (int x = 0; x <= width; x++)
+				for (int y = 0; y < (int)(((float)map[x,z]/255f) * maxHeight); y++)
 				{
-					
-					cubesData.SetVoxel(x, y, z, color);
+					//if(map[x,z] > VoxelThresHold){
+					cubesData.SetVoxel(x, y, z, color);	
+					//cubesData.SetVoxel(x, y, z, color);	
+					//}
 				}
 			}
+			loadPercentage = (float)z/(float)depth;
+			yield return null;
 		}
-
+		Debug.Log("Finish");
+		cubesData.CommitChanges();
 		coloredCubesVolume = cubesHolder.AddComponent<ColoredCubesVolume>();
 		coloredCubesVolume.data = cubesData;		
 		cubesHolder.AddComponent<ColoredCubesVolumeRenderer>();
 		cubesHolder.AddComponent <ColoredCubesVolumeCollider>();
 		CreateTerrain ();
+
+		cubesHolder.transform.localScale = new Vector3(3f,3f,3f);
+		transform.localScale *= 1f/3f;
+
 	}
 	void CreateTerrain(){
-		TerrainVolumeData terrainData = VolumeData.CreateEmptyVolumeData<TerrainVolumeData>(new Region(0, 0, 0, width, height, depth));
+		TerrainVolumeData terrainData = VolumeData.CreateEmptyVolumeData<TerrainVolumeData>(new Region(0, 0, 0, (width * 3) + 1, (maxHeight * 3) + 1, (depth * 3) + 1));
 		MaterialSet materialSet = new MaterialSet();
 		float simplexNoiseValue = 1f;
 
-
-		for (int z = 0; z <= depth; z++)
+		for (int z = 0; z <= depth; z += 1)
 		{
-			for (int x = 0; x <= width; x++)
+			for (int x = 0; x <= width; x += 1)
 			{
-				
-				Vector3 pos = new Vector3 (x,0f,z);
+				Vector3 pos = new Vector3 (x ,0f, z);
 
-				if(TerrainVoxelPosition (ref pos, ref simplexNoiseValue))
-				{					
-					simplexNoiseValue *= 127.5f;
-					materialSet.weights[3] = (byte)simplexNoiseValue;
-					terrainData.SetVoxel((int)pos.x,(int) pos.y,(int) pos.z, materialSet);
+				if(TerrainVoxelPosition (ref pos))
+				{	
+					materialSet.weights[3] = (byte)128;
+					//Center
+					terrainData.SetVoxel((x*3)+1,(int) pos.y+0,(z*3)+1, materialSet);
+					terrainData.SetVoxel((x*3)+1,(int) pos.y+0,(z*3)+2, materialSet);
+					terrainData.SetVoxel((x*3)+2,(int) pos.y+0,(z*3)+1, materialSet);
+					terrainData.SetVoxel((x*3)+2,(int) pos.y+0,(z*3)+2, materialSet);
+
+					materialSet.weights[3] = (byte)128;
+//					//Z Up
+					Vector3 pos2= new Vector3 (x ,0f, z - 1);
+					TerrainVoxelPosition (ref pos2);
+
+					terrainData.SetVoxel((x*3)+0,(int) pos2.y+0,(z*3)+0, materialSet);
+					terrainData.SetVoxel((x*3)+1,(int) pos2.y+0,(z*3)+0, materialSet);
+					terrainData.SetVoxel((x*3)+2,(int) pos2.y+0,(z*3)+0, materialSet);
+					terrainData.SetVoxel((x*3)+3,(int) pos2.y+0,(z*3)+0, materialSet);
+
+//					//Z Down
+//					Vector3 pos3= new Vector3 (x + 1 ,0f, z);
+//					TerrainVoxelPosition (ref pos3);
+//					terrainData.SetVoxel((x*3)+0,(int) pos3.y+0,(z*3)+3, materialSet);
+//					terrainData.SetVoxel((x*3)+2,(int) pos3.y+0,(z*3)+3, materialSet);
+//					terrainData.SetVoxel((x*3)+3,(int) pos3.y+0,(z*3)+3, materialSet);
+//					//X Up
+//					Vector3 pos4= new Vector3 (x - 1 ,0f, z);
+//					TerrainVoxelPosition (ref pos4);
+//					terrainData.SetVoxel((x*3)+3,(int) pos4.y+0,(z*3)+1, materialSet);
+//					terrainData.SetVoxel((x*3)+3,(int) pos4.y+0,(z*3)+2, materialSet);
+//					//X Down
+//					Vector3 pos5= new Vector3 (x + 1 ,0f, z);
+//					TerrainVoxelPosition (ref pos5);
+//					terrainData.SetVoxel((x*3)+0,(int) pos5.y+0,(z*3)+1, materialSet);
+//					terrainData.SetVoxel((x*3)+0,(int) pos5.y+0,(z*3)+2, materialSet);
+//
+
 				}
 
 			}
@@ -86,50 +128,20 @@ public class MapCreator : MonoBehaviour {
 
 	}
 
-	bool TerrainVoxelPosition( ref Vector3 voxelPosition ,ref float weight){
+	bool TerrainVoxelPosition(ref Vector3 voxelPosition){
 		Ray ray = new Ray ();
 		ray.direction = Vector3.down;
 
-		ray.origin = new Vector3 (voxelPosition.x, transform.position.y + height + 1f, voxelPosition.z);
-		PickVoxelResult pickResult1;
-		bool hit1 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult1);
+		ray.origin = new Vector3 (voxelPosition.x, transform.position.y + maxHeight + 1f, voxelPosition.z);
+		PickVoxelResult pickResult;
+		bool hit1 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, maxHeight + 5f, out pickResult);
 		if(hit1){
-			ray.origin = new Vector3 (voxelPosition.x+1, transform.position.y + height + 1f, voxelPosition.z);
-			PickVoxelResult pickResult2;
-			bool hit2 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult2);
-
-			ray.origin = new Vector3 (voxelPosition.x-1,transform.position.y + height + 1f, voxelPosition.z);
-			PickVoxelResult pickResult3;
-			bool hit3 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult3);
-
-			ray.origin = new Vector3 (voxelPosition.x, transform.position.y + height + 1f, voxelPosition.z +1);
-			PickVoxelResult pickResult4;
-			bool hit4 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult4);
-
-			ray.origin = new Vector3 (voxelPosition.x, transform.position.y + height + 1f, voxelPosition.z -1);
-			PickVoxelResult pickResult5;
-			bool hit5 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult5);
-
-			//
-			// Diagonales Ignoradas
-			//
-//			ray.origin = new Vector3 (voxelPosition.x, transform.position.y + height + 1f, voxelPosition.z);
-//			PickVoxelResult pickResult6;
-//			bool hit6 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult6);
-//
-//			ray.origin = new Vector3 (voxelPosition.x, transform.position.y + height + 1f, voxelPosition.z);
-//			PickVoxelResult pickResult7;
-//			bool hit7 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult7);
-//
-//			ray.origin = new Vector3 (voxelPosition.x, transform.position.y + height + 1f, voxelPosition.z);
-//			PickVoxelResult pickResult8;
-//			bool hit8 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult8);
-//
-//			ray.origin = new Vector3 (voxelPosition.x, transform.position.y + height + 1f, voxelPosition.z);
-//			PickVoxelResult pickResult9;
-//			bool hit9 = Picking.PickFirstSolidVoxel (coloredCubesVolume, ray, 1000.0f, out pickResult9);	
+			voxelPosition = new Vector3(pickResult.worldSpacePos.x,pickResult.worldSpacePos.y,pickResult.worldSpacePos.z);
+			return true;
+		}else{
+			return false;
 		}
-		return true;
+		
 	}
 
 
@@ -311,5 +323,25 @@ public class MapCreator : MonoBehaviour {
 			coloredCubesVolume.data.SetVoxel(voxel.x, voxel.y, voxel.z, new QuantizedColor(0,0,0,0));
 			terrainVolume.data.SetVoxel(voxel.x, voxel.y, voxel.z, emptyMaterialSet);
 		}
+	}
+
+	int[,] LoadImage(string texture){
+		byte[] bytes= System.IO.File.ReadAllBytes(Application.dataPath + "/StreamingAssets/" + texture);
+
+		Texture2D levelMap = new Texture2D(2,2);
+		levelMap.LoadImage(bytes);
+
+		//get the raw pixels from the level imagemap
+		Color32[] allPixels = levelMap.GetPixels32();
+		width = levelMap.width;
+		depth = levelMap.height;
+
+		int[,] map = new int[width,depth];
+		for(int x = 0; x < width; x++){
+			for(int z = 0; z < depth; z++){
+				map[x,z] = allPixels[(z * width) + x].r;
+			}
+		}
+		return map;
 	}
 }
