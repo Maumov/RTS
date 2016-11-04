@@ -91,9 +91,13 @@ public class MapCreator : MonoBehaviour {
 					Vector3 pos2= new Vector3 (x ,0f, z - 1);
 					TerrainVoxelPosition (ref pos2);
 
-					terrainData.SetVoxel((x*3)+0,(int) pos2.y+0,(z*3)+0, materialSet);
+
+					terrainData.SetVoxel((x*3)+0,(int) pos2.y,(z*3)+0, materialSet);
+
 					terrainData.SetVoxel((x*3)+1,(int) pos2.y+0,(z*3)+0, materialSet);
+
 					terrainData.SetVoxel((x*3)+2,(int) pos2.y+0,(z*3)+0, materialSet);
+
 					terrainData.SetVoxel((x*3)+3,(int) pos2.y+0,(z*3)+0, materialSet);
 
 //					//Z Down
