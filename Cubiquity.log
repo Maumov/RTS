@@ -1,10 +1,34 @@
 ********************************************************************************
 *                             Initializing Cubiquity                           *
 ********************************************************************************
-[21:27:03, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/419D4ACD.vdb'
-[21:27:08, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[21:27:08, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3A2BD8A4.vdb'
-[21:27:16, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[14:50:38, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/163BD024.vdb'
+[14:50:48, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[14:50:48, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5D0FB1C0.vdb'
+[14:51:14, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:16:45, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/51CF9B9E.vdb'
+[15:16:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[15:16:50, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/30F0EF17.vdb'
+[15:17:11, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:19:01, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6FD70234.vdb'
+[15:19:06, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[15:19:06, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/40DE39D6.vdb'
+[15:19:29, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:21:01, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0F0F30AE.vdb'
+[15:21:06, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[15:21:06, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/07FFD33C.vdb'
+[15:21:29, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:24:06, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0B4883EB.vdb'
+[15:24:11, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[15:24:11, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5715B2B9.vdb'
+[15:24:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:25:11, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/267401A5.vdb'
+[15:25:16, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[15:25:16, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/22F76EA5.vdb'
+[15:25:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:26:34, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2A37EE18.vdb'
+[15:26:38, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[15:26:39, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/039BF891.vdb'
+[15:26:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
 ********************************************************************************
 *                             Shutting down Cubiquity                          *
 ********************************************************************************

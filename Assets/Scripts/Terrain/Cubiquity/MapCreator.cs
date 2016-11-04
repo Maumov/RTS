@@ -81,10 +81,10 @@ public class MapCreator : MonoBehaviour {
 				{	
 					materialSet.weights[3] = (byte)128;
 					//Center
-					terrainData.SetVoxel((x*3)+1,(int) pos.y+0,(z*3)+1, materialSet);
-					terrainData.SetVoxel((x*3)+1,(int) pos.y+0,(z*3)+2, materialSet);
-					terrainData.SetVoxel((x*3)+2,(int) pos.y+0,(z*3)+1, materialSet);
-					terrainData.SetVoxel((x*3)+2,(int) pos.y+0,(z*3)+2, materialSet);
+//					terrainData.SetVoxel((x*3)+1,(int) pos.y+0,(z*3)+1, materialSet);
+//					terrainData.SetVoxel((x*3)+1,(int) pos.y+0,(z*3)+2, materialSet);
+//					terrainData.SetVoxel((x*3)+2,(int) pos.y+0,(z*3)+1, materialSet);
+//					terrainData.SetVoxel((x*3)+2,(int) pos.y+0,(z*3)+2, materialSet);
 
 					materialSet.weights[3] = (byte)128;
 //					//Z Up
@@ -100,7 +100,7 @@ public class MapCreator : MonoBehaviour {
 
 					terrainData.SetVoxel((x*3)+3,(int) pos2.y+0,(z*3)+0, materialSet);
 
-//					//Z Down
+					//Z Down
 //					Vector3 pos3= new Vector3 (x + 1 ,0f, z);
 //					TerrainVoxelPosition (ref pos3);
 //					terrainData.SetVoxel((x*3)+0,(int) pos3.y+0,(z*3)+3, materialSet);
