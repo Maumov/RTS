@@ -1,14 +1,10 @@
 ********************************************************************************
 *                             Initializing Cubiquity                           *
 ********************************************************************************
-[18:26:22, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4EF6BF7F.vdb'
-[18:26:28, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[18:26:28, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6B6ABD8B.vdb'
-[18:26:43, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[18:28:44, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5ADD6195.vdb'
-[18:28:49, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[18:28:49, Info   ]: Creating empty voxel database as 'C:/Users/Mau/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/10BBD883.vdb'
-[18:29:06, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[18:45:21, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/087CA9C3.vdb'
+[18:45:30, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[18:45:30, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4B8D0C81.vdb'
+[18:45:53, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
 ********************************************************************************
 *                             Shutting down Cubiquity                          *
 ********************************************************************************
