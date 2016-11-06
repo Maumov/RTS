@@ -1,8 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Terrain\Cubiquity\MapCreator.cs">
     <Files>
-      <File FileName="Assets\Scripts\Terrain\Cubiquity\MapCreator.cs" Line="94" Column="6" />
+      <File FileName="Assets\Scripts\Unit\Unit.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Generals\Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Generals\IAction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Generals\UIHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Generals\GroupHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Commands\Move.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Terrain\Cubiquity\MapCreator.cs" Line="118" Column="72" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

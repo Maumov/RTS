@@ -101,21 +101,21 @@ public class MapCreator : MonoBehaviour {
 					terrainData.SetVoxel((x*3)+3,(int) pos2.y+0,(z*3)+0, materialSet);
 
 					//Z Down
-//					Vector3 pos3= new Vector3 (x + 1 ,0f, z);
-//					TerrainVoxelPosition (ref pos3);
-//					terrainData.SetVoxel((x*3)+0,(int) pos3.y+0,(z*3)+3, materialSet);
-//					terrainData.SetVoxel((x*3)+2,(int) pos3.y+0,(z*3)+3, materialSet);
-//					terrainData.SetVoxel((x*3)+3,(int) pos3.y+0,(z*3)+3, materialSet);
-//					//X Up
-//					Vector3 pos4= new Vector3 (x - 1 ,0f, z);
-//					TerrainVoxelPosition (ref pos4);
-//					terrainData.SetVoxel((x*3)+3,(int) pos4.y+0,(z*3)+1, materialSet);
-//					terrainData.SetVoxel((x*3)+3,(int) pos4.y+0,(z*3)+2, materialSet);
-//					//X Down
-//					Vector3 pos5= new Vector3 (x + 1 ,0f, z);
-//					TerrainVoxelPosition (ref pos5);
-//					terrainData.SetVoxel((x*3)+0,(int) pos5.y+0,(z*3)+1, materialSet);
-//					terrainData.SetVoxel((x*3)+0,(int) pos5.y+0,(z*3)+2, materialSet);
+					Vector3 pos3= new Vector3 (x + 1 ,0f, z);
+					TerrainVoxelPosition (ref pos3);
+					terrainData.SetVoxel((x*3)+0,(int) pos3.y+0,(z*3)+3, materialSet);
+					terrainData.SetVoxel((x*3)+2,(int) pos3.y+0,(z*3)+3, materialSet);
+					terrainData.SetVoxel((x*3)+3,(int) pos3.y+0,(z*3)+3, materialSet);
+					//X Up
+					Vector3 pos4= new Vector3 (x - 1 ,0f, z);
+					TerrainVoxelPosition (ref pos4);
+					terrainData.SetVoxel((x*3)+3,(int) pos4.y+0,(z*3)+1, materialSet);
+					terrainData.SetVoxel((x*3)+3,(int) pos4.y+0,(z*3)+2, materialSet);
+					//X Down
+					Vector3 pos5= new Vector3 (x + 1 ,0f, z);
+					TerrainVoxelPosition (ref pos5);
+					terrainData.SetVoxel((x*3)+0,(int) pos5.y+0,(z*3)+1, materialSet);
+					terrainData.SetVoxel((x*3)+0,(int) pos5.y+0,(z*3)+2, materialSet);
 //
 
 				}

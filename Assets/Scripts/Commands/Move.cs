@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+
 [RequireComponent(typeof(NavMeshAgent))]
 public class Move : MonoBehaviour,IAction {
 

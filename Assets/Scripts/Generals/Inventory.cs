@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 public class Inventory : MonoBehaviour
 {
-    List<ItemSlot> Slot = new List<ItemSlot>();
+	
+    public List<ItemSlot> Slot = new List<ItemSlot>();
 
     public bool HaveItemSlot(ItemSlot ItemSlot)
     {

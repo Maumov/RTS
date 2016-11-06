@@ -24,11 +24,12 @@ public interface IAction{
 	void DestinationPositionAcion();
 }
 
+[Serializable]
 public class ItemSlot{
     public Item item;
     public int amount;
 }
-
+[Serializable]
 public class Item{
     public int id;
     public string name;
