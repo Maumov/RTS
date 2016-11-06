@@ -1,34 +1,104 @@
 ********************************************************************************
 *                             Initializing Cubiquity                           *
 ********************************************************************************
-[14:50:38, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/163BD024.vdb'
-[14:50:48, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[14:50:48, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5D0FB1C0.vdb'
-[14:51:14, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[15:16:45, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/51CF9B9E.vdb'
-[15:16:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[15:16:50, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/30F0EF17.vdb'
-[15:17:11, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[15:19:01, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6FD70234.vdb'
-[15:19:06, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[15:19:06, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/40DE39D6.vdb'
-[15:19:29, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[15:21:01, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0F0F30AE.vdb'
-[15:21:06, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[15:21:06, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/07FFD33C.vdb'
-[15:21:29, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[15:24:06, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0B4883EB.vdb'
-[15:24:11, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[15:24:11, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5715B2B9.vdb'
-[15:24:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[15:25:11, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/267401A5.vdb'
-[15:25:16, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[15:25:16, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/22F76EA5.vdb'
-[15:25:33, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
-[15:26:34, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2A37EE18.vdb'
-[15:26:38, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
-[15:26:39, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/039BF891.vdb'
-[15:26:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[09:48:15, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/46AB7C1E.vdb'
+[09:51:50, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[09:51:50, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4E2FB730.vdb'
+[09:53:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:02:25, Info   ]: Creating voxel database from 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4E2FB730.vdb'
+[10:02:25, Info   ]: Creating voxel database from 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/46AB7C1E.vdb'
+[10:02:28, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/260E93C9.vdb'
+[10:02:33, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:02:33, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4DD74743.vdb'
+[10:02:53, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:08:03, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5897D1F1.vdb'
+[10:08:08, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:08:08, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0820CD34.vdb'
+[10:08:27, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:12:32, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2113F474.vdb'
+[10:12:37, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:12:37, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/091A9F29.vdb'
+[10:12:55, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:14:27, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/46442735.vdb'
+[10:14:32, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:14:32, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1B2328DA.vdb'
+[10:14:50, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:15:49, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/62035ECE.vdb'
+[10:15:54, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:15:54, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1B88A10D.vdb'
+[10:16:13, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:17:09, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2591EFD9.vdb'
+[10:17:14, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:17:14, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/53895B5C.vdb'
+[10:17:34, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:17:48, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/25C863E5.vdb'
+[10:17:53, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:17:53, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/3BD3B58E.vdb'
+[10:18:12, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:19:08, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/28404E6F.vdb'
+[10:19:12, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:19:13, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/711EC3BA.vdb'
+[10:19:30, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:20:47, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/34227BA2.vdb'
+[10:20:52, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:20:52, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7585C4D3.vdb'
+[10:21:09, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:25:39, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5E80080C.vdb'
+[10:25:44, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:25:44, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/06FE9674.vdb'
+[10:26:03, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:28:16, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2DE540DE.vdb'
+[10:28:21, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:28:21, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/75EC6699.vdb'
+[10:28:41, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:29:33, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0C6B1F33.vdb'
+[10:29:38, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:29:38, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/33218756.vdb'
+[10:29:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:38:44, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/4A1E302F.vdb'
+[10:38:49, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:38:49, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/58AC5F5F.vdb'
+[10:39:09, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:40:12, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/709CA875.vdb'
+[10:40:17, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:40:17, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/37AB6983.vdb'
+[10:40:36, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:41:36, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5E29CB84.vdb'
+[10:41:41, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:41:41, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/64471015.vdb'
+[10:42:00, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:46:34, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0FBD9518.vdb'
+[10:46:39, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:46:39, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7CE95DCA.vdb'
+[10:46:58, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:50:18, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6D668AE2.vdb'
+[10:50:22, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:50:23, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/5EA6CC56.vdb'
+[10:50:42, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:51:57, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/6713720E.vdb'
+[10:52:02, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:52:02, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/46D38F20.vdb'
+[10:52:21, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:54:27, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/78F8D0EB.vdb'
+[10:54:32, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:54:32, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/7992B8F4.vdb'
+[10:54:52, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[10:57:53, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/0604A324.vdb'
+[10:57:58, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[10:57:58, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/664E47C7.vdb'
+[10:58:17, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[11:00:32, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/1A0985FA.vdb'
+[11:00:37, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[11:00:37, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/2F61D9EC.vdb'
+[11:00:56, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[11:31:55, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/17BD1953.vdb'
+[11:31:59, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[11:32:00, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/408CC572.vdb'
+[11:32:19, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[15:43:33, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/53F56F15.vdb'
+[15:43:37, Info   ]: Resizing compressed data buffer to 144307bytes. This should only happen once
+[15:43:37, Info   ]: Creating empty voxel database as 'C:/Users/User1/AppData/Local/Temp/DefaultCompany/RealTimeStrategy/701540F5.vdb'
+[15:43:57, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
 ********************************************************************************
 *                             Shutting down Cubiquity                          *
 ********************************************************************************
